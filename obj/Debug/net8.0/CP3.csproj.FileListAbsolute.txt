@@ -1,0 +1,14 @@
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\bin\Debug\net8.0\CP3.exe
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\bin\Debug\net8.0\CP3.deps.json
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\bin\Debug\net8.0\CP3.runtimeconfig.json
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\bin\Debug\net8.0\CP3.dll
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\bin\Debug\net8.0\CP3.pdb
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.AssemblyInfoInputs.cache
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.AssemblyInfo.cs
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.csproj.CoreCompileInputs.cache
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.dll
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\refint\CP3.dll
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.pdb
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.genruntimeconfig.cache
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\ref\CP3.dll
