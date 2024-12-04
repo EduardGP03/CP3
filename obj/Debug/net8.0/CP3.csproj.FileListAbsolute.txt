@@ -12,3 +12,4 @@ C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8
 C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.pdb
 C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.genruntimeconfig.cache
 C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\ref\CP3.dll
+C:\Users\Zorro\Desktop\University\Programming\Practical Class\CP3\obj\Debug\net8.0\CP3.sourcelink.json
