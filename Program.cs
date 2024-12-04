@@ -22,7 +22,7 @@ static void Carnet()
 
 }
 
-static void ValorAbsoluto_1()
+static void AbsoluteValue_1()
 {
     Console.WriteLine("Introduzca un numero: ");
 
@@ -33,7 +33,7 @@ static void ValorAbsoluto_1()
     else Console.WriteLine($"El valor absoluto de {number1} es: {-number1} ");
 }
 
-static void ValorAbsoluto_2()
+static void AbsoluteValue_2()
 {
     Console.WriteLine("Introduzca un numero: ");
 
@@ -44,7 +44,7 @@ static void ValorAbsoluto_2()
     Console.WriteLine($"El valor absoluto de {number1} es: {number1} ");
 }
 
-static void FormaFecha()
+static void DateForm()
 {
 
     Console.WriteLine("Introduzca el dia: ");
@@ -84,7 +84,7 @@ static void Triangle()
     else Console.WriteLine((int)Classification.NoTringle);
 }
 
-static void DiaSemana()
+static void DayWeek()
 {
     Console.WriteLine("Introduzca el dia ");
     int day = int.Parse(Console.ReadLine());
@@ -115,7 +115,7 @@ static void DiaSemana()
     Console.WriteLine($"El dia de la semana es: {(Week)dayOfWeek}");
 }
 
-static void DiaDespues()
+static void DayAfter()
 {
 
     Console.WriteLine("Introduzca el dia: ");
@@ -154,7 +154,7 @@ static void DiaDespues()
     }
 }
 
-static void DosFechas()
+static void TwoDates()
 {
 
     Console.WriteLine("Introduzca el dia del la primera fecha: ");
@@ -190,7 +190,7 @@ static long Factorial(int n)
 
 }
 
-static void ImprimiendoNumeros(int n)
+static void PritingNumbers(int n)
 {
     if (n < 0) return;
 
@@ -199,7 +199,7 @@ static void ImprimiendoNumeros(int n)
     ImprimiendoNumeros(n - 1);
 }
 
-static void InvierteElOrden(int n)
+static void ReverseOrder(int n)
 {
     if (n < 0) return;
 
@@ -208,7 +208,7 @@ static void InvierteElOrden(int n)
     Console.WriteLine(n);
 }
 
-static void SumandoHoras(int hour1, int min1, int hour2, int min2)
+static void AddingHours(int hour1, int min1, int hour2, int min2)
 {
     int timeInMins, timeInHours, timeInDays;
 
@@ -250,7 +250,7 @@ static void SumandoHoras(int hour1, int min1, int hour2, int min2)
     }
 }
 
-static void Avion(int hour1, int min1, int hour2, int min2)
+static void Airplane(int hour1, int min1, int hour2, int min2)
 {
     int timeInMins, timeInHours;
     if (min2 - min1 < 0)
@@ -322,7 +322,7 @@ static void Avion(int hour1, int min1, int hour2, int min2)
 
 // } ESTE ME FALTA TERMINARLO CON LA MULTIPLICACION VECTORIAL Y PUEDO USAR LA SUMA DEL AREA DEL TRINAGULO GRANDE CON LOS TRES FORMADOS CON EL VERTICE 
 
-static void Mayor()
+static void Largest()
 {
     Console.WriteLine("Introduzca 3 numeros y averiguemos quie es el mayor: ");
     int number1 = int.Parse(Console.ReadLine());
@@ -332,7 +332,7 @@ static void Mayor()
     Console.WriteLine($"El mayor es: {Math.Max(number1, Math.Max(number2, number3))}");
 }
 
-static void Calculadora()
+static void Calculator()
 {
     Console.WriteLine("Adelante, puede calcular ");
 
