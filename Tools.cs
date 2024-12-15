@@ -1,3 +1,4 @@
+//Programando en mas de un .cs
 class Tools
 {
     public static bool ValidDay(int day, int month, int year)

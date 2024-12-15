@@ -1,3 +1,4 @@
+//Practica con enums
 enum Classification
 {
     NoTringle,

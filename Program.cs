@@ -180,8 +180,7 @@ static void TwoDates()
     Console.WriteLine($"La diferencia en dias de las dos fechas es: {different} ");
 
 }
-
-//Hasta aca hice los metods que daban la respuesta void en lo adelante seran de cualquier tipo 
+ 
 static long Factorial(int n)
 {
     if (n == 1) return 1;
@@ -196,14 +195,14 @@ static void PritingNumbers(int n)
 
     Console.WriteLine(n);
 
-    ImprimiendoNumeros(n - 1);
+    PritingNumbers(n - 1);
 }
 
 static void ReverseOrder(int n)
 {
     if (n < 0) return;
 
-    InvierteElOrden(n - 1);
+    ReverseOrder(n - 1);
 
     Console.WriteLine(n);
 }
@@ -324,12 +323,23 @@ static void Airplane(int hour1, int min1, int hour2, int min2)
 
 static void Largest()
 {
-    Console.WriteLine("Introduzca 3 numeros y averiguemos quie es el mayor: ");
+    Console.WriteLine("Introduzca 3 numeros y averiguemos quien es el mayor: ");
     int number1 = int.Parse(Console.ReadLine());
     int number2 = int.Parse(Console.ReadLine());
     int number3 = int.Parse(Console.ReadLine());
 
-    Console.WriteLine($"El mayor es: {Math.Max(number1, Math.Max(number2, number3))}");
+    int distance1_2 = Math.Abs(number1 - number2);
+    int max1_2 = (number1 + number2 + distance1_2) / 2;  
+
+    int distance1_2_3 = Math.Abs(max1_2 - number3);
+    int max1_2_3 = (max1_2 + number3 + distance1_2_3) / 2;
+
+    int min1_2 = (number1 + number2 - distance1_2) / 2;
+    int min1_2_3 = (min1_2 + number3 - distance1_2_3) / 2;
+    //Console.WriteLine($"El mayor es: {Math.Max(number1, Math.Max(number2, number3))}"); //Forma sencilla de hacerlo
+
+    Console.WriteLine($"El maximo es {max1_2_3} ");
+    Console.WriteLine($"El minimo es {min1_2_3} ");
 }
 
 static void Calculator()
@@ -364,8 +374,6 @@ static void Calculator()
     }
 }
 
-
-
-
+//Falta hacer el ejercicio de punto interiror del triangulo
 
 
